@@ -1,0 +1,27 @@
+for install and connect jango: pip install django (make folder(django) go there and run in CMD)
+
+for get some information about commands:django-admin
+
+for get info about comands: python manage.py 
+
+for get the details about your project or version: pip freeze
+
+for create a project: django-admin startproject <project name>
+
+for create a features in web need to create app in project: python manage.py startapp service 
+(D:\Django\Mysite> python manage.py startapp service)(app -> modle -> migreate -> table)
+
+for run the admin pannle: python .\manage.py runserver
+
+for compile the py generated qureis: python manage.py migrate
+
+ctrl + c --> for stop the running project
+
+for create a super user (means you need to generate password and username): python .\manage.py createsuperuser
+
+Database to modle --> python manage.py inspectdb > tmp.txt
+
+for install the firebase --> pip install pyrebase
+
+for install the firebase dependency --> pip install pyrebase4
+
